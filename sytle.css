@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    max-width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    margin: auto;
+
+}
+
+.img-nav {
+    width: 20%;
+    margin: 1.25rem 1.25rem;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 0.4rem;
+
+}
+
+li {
+    margin: 0rem 1rem;
+    font-size: 0.9rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.illustration-1 {
+    width: 100%;
+    padding: 0rem 2rem;
+    margin-top: 6rem;
+
+}
+
+section h2 {
+    text-align: center;
+    padding: 0rem 2rem;
+    margin: 3rem 0rem 2rem 0rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 2rem;
+
+
+}
+
+section p {
+    text-align: center;
+    padding: 0rem 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+
+
+}
+
+.link-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    display: block;
+    margin: 2rem auto 1rem;
+    width: 80%;
+    height: 2.5rem;
+    padding: 0rem 1.5rem;
+    border-radius: 0.2rem;
+    border: 0.06rem solid black;
+
+}
+
+input::placeholder {
+    opacity: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 0rem auto;
+    background: none;
+    border: 1px solid blue;
+    background-color: hsl(224, 93%, 58%);
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    color: white;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.img-curve {
+    vertical-align: middle;
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.img-meeting {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+.section-02 {
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 4rem;
+
+}
+
+.section-02 h2 {
+    font-size: 1rem;
+}
+
+.section-02 p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    color: hsl(170, 45%, 43%);
+    font-size: 0.9rem;
+}
+
+.icon-arrow {
+    width: 25px;
+    height: 25px;
+    margin-left: 0.2rem;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.cite-box {
+    background-color: white;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+
+}
+
+.quotes-img {
+    margin: 0.031rem 0.5rem 0.031rem;
+}
+
+.cite-box p {
+    font-size: 0.6rem;
+    margin-bottom: 0.6rem;
+    padding: 0rem 0.6rem;
+    letter-spacing: 0.063rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.user-info {
+    display: flex;
+    padding-bottom: 0.3rem;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+
+}
+
+.user-info h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: -0.3rem;
+
+}
+
+.user-info small {
+    font-size: 0.5rem;
+}
+
+.section-03 {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+    padding-bottom: 20px;
+
+
+}
+
+.section-03 h2 {
+    margin-bottom: 0.9rem;
+    margin: 0;
+    padding: 1.25rem;
+
+}
+
+.section-03 p {
+    margin-bottom: 0.9rem;
+}
+
+footer {
+    background-color: #070439;
+    color: white;
+    width: 100%;
+    padding-bottom: 3.125rem;
+    font-size: 0.9rem;
+
+}
+
+.footer-main-img {
+    width: 100px;
+    height: 30px;
+    margin: 3.1rem 1.8rem 0.6rem;
+
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    margin: 0.6rem 1.8rem;
+}
+
+.footer-options {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem 1.8rem 1.2rem;
+}
+
+
+.fone-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.3rem;
+
+}
+
+.email-icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 0.3rem;
+}
+
+footer div p {
+    margin: 0.6rem 0rem;
+}
+
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0rem 0.6rem;
+}
+
+@media (min-width: 1440px) {
+    .img-nav {
+        width: 10%;
+        margin-left: 5rem;
+    }
+
+    nav ul {
+        margin-right: 1.5rem;
+
+    }
+
+    .section-01 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section-01 h2,
+    p {
+        text-align: left;
+        padding-left: 1rem;
+        font-size: 1.8rem;
+
+    }
+
+    .section-01 p {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .img-01 {
+        width: 65%;
+
+    }
+
+    .content-01 {
+        width: 50%;
+        padding: 4rem;
+        font-size: 2rem;
+
+    }
+
+    .illustration-1 {
+        width: 60%;
+        margin: 0rem 0rem 0rem 13rem;
+        padding: 0;
+
+
+    }
+
+    input {
+        width: 60%;
+        margin: 1rem;
+        display: inline;
+
+    }
+
+    button {
+        width: 25%;
+        margin: 0;
+        display: inline;
+
+    }
+
+    .section-02 {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .content-02 {
+        padding-left: 2rem;
+    }
+
+    .content-02 h2 {
+        text-align: left;
+        font-size: 2rem;
+        
+    }
+
+    .content-02 p {
+        width: 70%;
+    }
+
+    .link-a {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2rem;
+
+    }
+
+
+    .cite-box {
+        margin-left: 2rem;
+        width: 50%;
+    }
+
+    .cite-box p {
+        width: 90%;
+    }
+    
+
+    .img-meeting {
+        width: 60%;
+        padding-top: 2rem;
+    }
+
+    .section-03 {
+        display: flex;
+        padding: 3rem 3rem;
+
+    }
+
+    .section-03 h2 {
+        text-align: left;
+        margin: 0 0 1rem;
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    .section-03 p {
+        text-align: left;
+        text-align: justify;
+        width: 55%;
+        padding: 0;
+        margin-bottom: 0;
+
+    }
+
+    .form-02 {
+        width: 50%;
+    }
+
+    .input-02 {
+        display: block;
+        width: 80%;
+    }
+
+    .button-02 {
+        margin-left: 1rem;
+        width: 40%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 6rem;
+        position: relative;
+    }
+
+    .number, .email {
+        margin-left: 0.5rem;
+    }
+
+    .footer-01 {
+        margin: 1.2rem;
+        
+    }
+
+    .flex-items {
+        flex-grow: 1;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    .footer-main-img {
+        width: 10%;
+        height: 15%;    
+        margin: 0rem 1.8rem 0rem;
+        position: absolute;
+        top: 2.8rem;
+
+    }
+
+    
+}
