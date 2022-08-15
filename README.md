@@ -9,7 +9,7 @@ This is a solution to the Fylo landing page with two column layout challenge on 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+
 
 
 ## Overview
@@ -24,6 +24,8 @@ Users should be able to:
 ### Links
 
 - Link: https://thiagoplaca.github.io/fyloLandingPage/
+
+## My Process
 
 ### Built with
 
