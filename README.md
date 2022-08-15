@@ -23,12 +23,11 @@ Users should be able to:
 
 ### Links
 
-- Link: https://thiagoplaca.github.io/TimeTrackingDashboard/
+- Link: https://thiagoplaca.github.io/fyloLandingPage/
 
 ### Built with
 
 - Semantic HTML5 markup
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
  
